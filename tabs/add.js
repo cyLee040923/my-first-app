@@ -4,7 +4,7 @@ import Slider from '@react-native-community/slider';
 import { StatusBar } from 'expo-status-bar';
 import DropDownPicker from 'react-native-dropdown-picker';
 
-const baseUrl = 'http://192.168.11.37:4000'; 
+const baseUrl = 'https://randomfood-fud5b8cmeqh6gpbr.eastasia-01.azurewebsites.net'; 
 
 const foodStyles = ['Chinese', 'Western', 'Japanese', 'Korean', 'Thai', 'Indian'];
 const districts = [

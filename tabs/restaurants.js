@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, TextInput, FlatList, ActivityIndicator, Dimensions, Linking } from 'react-native';
 import DropDownPicker from 'react-native-dropdown-picker';
 
-const baseUrl = 'http://192.168.11.37:4000';
+const baseUrl = 'https://randomfood-fud5b8cmeqh6gpbr.eastasia-01.azurewebsites.net';
 
 const districts = ['Central', 'Wan Chai', 'Tsim Sha Tsui', 'Mong Kok', 'Shatin', 'Tsuen Wan', 'Yuen Long', 'Tuen Mun'];
 const foodStyles = ['Chinese', 'Western', 'Japanese', 'Korean', 'Thai', 'Indian'];

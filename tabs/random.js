@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, KeyboardAvoidingView, Platfor
 import DropDownPicker from 'react-native-dropdown-picker';
 import { StatusBar } from 'expo-status-bar';
 
-const baseUrl = 'http://192.168.11.37:4000';
+const baseUrl = 'https://randomfood-fud5b8cmeqh6gpbr.eastasia-01.azurewebsites.net';
 
 const districts = ['All', 'Central', 'Wan Chai', 'Tsim Sha Tsui', 'Mong Kok', 'Shatin', 'Tsuen Wan', 'Yuen Long', 'Tuen Mun'];
 const foodStyles = ['Chinese', 'Western', 'Japanese', 'Korean', 'Thai', 'Indian'];
